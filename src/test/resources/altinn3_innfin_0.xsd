@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://www.fileconverts.com/xml/xml-to-xsd/ -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="/jaxb/gen"
+    xmlns:userns="/jaxb/gen"
+    elementFormDefault="qualified"
+>
+    <element name="mfragment1" type="userns:mfragment1" ></element>
+        <complexType name="mfragment1">
+            <sequence>
+                <element name="InternInfo">
+                    <complexType>
+                        <sequence>
+                            <element type="string" name="undersoekelsesNr"/>
+                            <element type="string" name="delregNr"/>
+                            <element type="string" name="periodeFritekst"/>
+                            <element type="string" name="enhetsOrgNr"/>
+                            <element type="string" name="reporteeOrgNr"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="Kontakt">
+                    <complexType>
+                        <sequence>
+                            <element type="string" name="kontaktPersonEpost"/>
+                            <element type="string" name="kontaktPersonTelefon"/>
+                         </sequence>
+                    </complexType>
+                </element>
+	    </sequence>
+        </complexType>
+  
+</schema>

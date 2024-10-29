@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<melding1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dataFormatProvider="SERES" dataFormatId="7092" dataFormatVersion="47550">
+  <InternInfo>
+    <raNummer>RA-1000</raNummer>
+    <skjemaVersjon>1.1</skjemaVersjon>
+  *  <undersoekelsesNr>740</undersoekelsesNr>
+    <undersoekelsesInfoUrl>http://www.ssb.no/innrapportering/orbof</undersoekelsesInfoUrl>
+    <visOppgaveByrde>2</visOppgaveByrde>
+    <visBrukeropplevelse>2</visBrukeropplevelse>
+  *  <delregNr>137750125</delregNr>
+    <periodeFritekst>januar 2025</periodeFritekst>
+  *  <periodeFomDato>2025-01-01</periodeFomDato>
+  *  <periodeTomDato>2025-01-31</periodeTomDato>
+    <periodeType>MND</periodeType>
+    <periodeNummer>01</periodeNummer>
+    <periodeAAr>2025</periodeAAr>
+    <periodeDato> </periodeDato>
+    <enhetsIdent>ATF2289004</enhetsIdent>
+  * <enhetsType>FRTK</enhetsType>
+  * <enhetsOrgNr>910452762</enhetsOrgNr>
+    <enhetsNavn>KJERRGARDEN OG SLÅSTAD REGNSKAP </enhetsNavn>
+    <enhetsGateadresse>Filipstad brygge 1</enhetsGateadresse>
+    <enhetsPostnr>0252</enhetsPostnr>
+    <enhetsPoststed>OSLO</enhetsPoststed>
+    <enhetsAvdeling> </enhetsAvdeling>
+    <reporteeOrgNr>910452762</reporteeOrgNr>
+  </InternInfo>
+  <Kontakt>
+    <kontaktPersonNavn>NAJMA ISMAIL</kontaktPersonNavn>
+    <kontaktPersonEpost>vcp@ssb.no</kontaktPersonEpost>
+    <kontaktPersonTelefon>46956899</kontaktPersonTelefon>
+    <kontaktInfoBekreftet>1</kontaktInfoBekreftet>
+    <kontaktInfoKommentar>heia</kontaktInfoKommentar>
+  </Kontakt>
+  <SkjemaTekster>
+    <skjemaNavnNB>Balanse ORBOF (Rapport 10 måned)</skjemaNavnNB>
+    <skjemaNavnNN>Balanse ORBOF (Rapport 10 månad)</skjemaNavnNN>
+    <skjemaNavnEN>Balanse ORBOF (Rapport 10 måned)</skjemaNavnEN>
+  </SkjemaTekster>
+  <Hjelpefelter>
+    <skjemaNavn>Balanse ORBOF (Rapport 10 månad)</skjemaNavn>
+  </Hjelpefelter>
+</melding1>

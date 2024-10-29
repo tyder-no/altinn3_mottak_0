@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://www.fileconverts.com/xml/xml-to-xsd/ -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="/jaxb/gen"
+    xmlns:userns="/jaxb/gen"
+    elementFormDefault="qualified"
+>
+    <element name="melding1" type="userns:melding1" ></element>
+        <complexType name="melding1">
+            <sequence>
+                <element name="InternInfo">
+                    <complexType>
+                        <sequence>
+                             <element type="string" name="raNummer"/>
+                            <element type="string" name="skjemaVersjon"/>
+                            <element type="string" name="undersoekelsesNr"/>
+                            <element type="string" name="undersoekelsesInfoUrl"/>
+                            <element type="string" name="visOppgaveByrde"/>
+                            <element type="string" name="visBrukeropplevelse"/>
+                            <element type="string" name="delregNr"/>
+                            <element type="string" name="periodeFritekst"/>
+                            <element type="string" name="periodeFomDato"/>
+                            <element type="string" name="periodeTomDato"/>
+                            <element type="string" name="periodeType"/>
+                            <element type="string" name="periodeNummer"/>
+                            <element type="string" name="periodeAAr"/>
+                            <element type="string" name="periodeDato"/>
+                            <element type="string" name="enhetsIdent"/>
+                            <element type="string" name="enhetsType"/>
+                            <element type="string" name="enhetsOrgNr"/>
+                            <element type="string" name="enhetsNavn"/>
+                            <element type="string" name="enhetsGateadresse"/>
+                            <element type="string" name="enhetsPostnr"/>
+                            <element type="string" name="enhetsPoststed"/>
+                            <element type="string" name="enhetsAvdeling"/>
+                            <element type="string" name="reporteeOrgNr"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="Kontakt">
+                    <complexType>
+                        <sequence>
+                            <element type="string" name="kontaktPersonNavn"/>
+                            <element type="string" name="kontaktPersonEpost"/>
+                            <element type="string" name="kontaktPersonTelefon"/>
+                            <element type="string" name="kontaktInfoBekreftet"/>
+                            <element type="string" name="kontaktInfoKommentar"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="SkjemaTekster">
+                    <complexType>
+                        <sequence>
+                            <element type="string" name="skjemaNavnNB"/>
+                            <element type="string" name="skjemaNavnNN"/>
+                            <element type="string" name="skjemaNavnEN"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="Hjelpefelter">
+                    <complexType>
+                        <sequence>
+                            <element type="string" name="skjemaNavn"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+            <attribute name="dataFormatProvider" type="string"/>
+            <attribute name="dataFormatId" type="string"/>
+            <attribute name="dataFormatVersion" type="string"/>
+        </complexType>
+  
+</schema>

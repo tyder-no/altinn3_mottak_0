@@ -1,0 +1,93 @@
+<!-- https://www.fileconverts.com/xml/xml-to-xsd/ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="melding">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="InternInfo">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:extension base="xs:string"/>
+                            <xs:element type="xs:string" name="raNummer"/>
+                            <xs:element type="xs:integer" name="skjemaVersjon"/>
+                            <xs:element type="xs:integer" name="undersoekelsesNr"/>
+                            <xs:element type="xs:string" name="undersoekelsesInfoUrl">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension></xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:integer" name="visOppgaveByrde"/>
+                            <xs:element type="xs:integer" name="visBrukeropplevelse"/>
+                            <xs:element type="xs:integer" name="delregNr"/>
+                            <xs:element type="xs:string" name="periodeFritekst"/>
+                            <xs:element type="xs:string" name="periodeFomDato">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension></xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="periodeTomDato">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension></xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="periodeType"/>
+                            <xs:element type="xs:integer" name="periodeNummer"/>
+                            <xs:element type="xs:integer" name="periodeAAr"/>
+                            <xs:element type="xs:string" name="periodeDato"/>
+                            <xs:element type="xs:string" name="enhetsIdent"/>
+                            <xs:element type="xs:string" name="enhetsType"/>
+                            <xs:element type="xs:integer" name="enhetsOrgNr"/>
+                            <xs:element type="xs:string" name="enhetsNavn"/>
+                            <xs:element type="xs:string" name="enhetsGateadresse"/>
+                            <xs:element type="xs:integer" name="enhetsPostnr"/>
+                            <xs:element type="xs:string" name="enhetsPoststed"/>
+                            <xs:element type="xs:string" name="enhetsAvdeling"/>
+                            <xs:element type="xs:integer" name="reporteeOrgNr"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Kontakt">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="kontaktPersonNavn"/>
+                            <xs:element type="xs:string" name="kontaktPersonEpost">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension></xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:integer" name="kontaktPersonTelefon"/>
+                            <xs:element type="xs:integer" name="kontaktInfoBekreftet"/>
+                            <xs:element type="xs:string" name="kontaktInfoKommentar"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="SkjemaTekster">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="skjemaNavnNB"/>
+                            <xs:element type="xs:string" name="skjemaNavnNN"/>
+                            <xs:element type="xs:string" name="skjemaNavnEN"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Hjelpefelter">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="skjemaNavn"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="dataFormatProvider" type="xs:string"/>
+            <xs:attribute name="dataFormatId" type="xs:string"/>
+            <xs:attribute name="dataFormatVersion" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

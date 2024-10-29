@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mfragment1 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dataFormatProvider="SERES" dataFormatId="7092" dataFormatVersion="47550">
+  <InternInfo0>
+     <undersoekelsesNr>740</undersoekelsesNr>
+     <delregNr>137750125</delregNr>
+     <periodeFritekst>januar 2025</periodeFritekst>
+     <enhetsOrgNr>910452762</enhetsOrgNr>
+     <reporteeOrgNr>910452762</reporteeOrgNr>
+  </InternInfo0>
+  <Kontakt0>
+    <kontaktPersonEpost>vcp@ssb.no</kontaktPersonEpost>
+    <kontaktPersonTelefon>46956899</kontaktPersonTelefon>
+   </Kontakt0>
+</mfragment1>
