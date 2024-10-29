@@ -1,0 +1,1 @@
+Using JAXB for XML processing of main Altinn 3 information file. Plus JSON and financial data files. Used for creating entries for 3 InnFin tables: fagsystem_mottak_bases, fagsystem_mottak_data and fagsystem_mottak_vedlegg
